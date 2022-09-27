@@ -16,7 +16,7 @@ void del()
     //if queue is empty
     if (front== rear)
     {
-        cout<<"\n Queue is empty\n";
+        cout<<"\nQueue is empty\n";
         return;
     }
     // shift all the elements from index 2 till rear//to the left by one
@@ -34,7 +34,7 @@ void Display()
     int i;
     if (front == rear)
     {
-        cout<<"\n Queue is Empty\n";
+        cout<<"\nQueue is Empty\n";
         return;
     }
     // traverse front to rear & print element
@@ -47,7 +47,7 @@ void Display()
 int main(void)
 {
     // create a queue of capacity 4
-    cout<<"\n Enter size of queue";
+    cout<<"\nEnter size of queue";
     cin>> n;
     /* cout<<"/n enter elements of queue:";
     for(int i=0; i<n; i++)
@@ -59,7 +59,7 @@ int main(void)
     insert(30);
     insert(40);
     insert(50);
-    cout<<"\n After insertion, queue=\n";
+    cout<<"\nAfter insertion, queue=\n";
     //print Queue elements
     Display();
     //insert element in the queue
@@ -68,7 +68,7 @@ int main(void)
     Display ();
     del();
     del();
-    cout<<"\n After deletion of 2 nodes,queue=\n";
+    cout<<"\nAfter deletion of 2 nodes,queue=\n";
     //print Queue elements
     Display();
     return 0;
