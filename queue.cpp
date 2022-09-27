@@ -11,7 +11,7 @@ void insert(int val)
         queue [rear]= val;
     }
 }
-void delete()
+void del()
 {
     //if queue is empty
     if (front== rear)
@@ -28,7 +28,6 @@ void delete()
         // decrement rear
         rear--;
     }
-    return;
 }
 void Display()
 {
@@ -56,19 +55,19 @@ int main(void)
     // print Queue elements
     Display();
     // inserting elements in the queue
-    Insert(20);
-    Insert(30);
-    Insert(40);
-    Insert(50);
+    insert(20);
+    insert(30);
+    insert(40);
+    insert(50);
     cout<<"\n After insertion, queue=\n";
     //print Queue elements
     Display();
     //insert element in the queue
-    Insert(60);
+    insert(60);
     // print Queue elements
     Display ();
-    Delete();
-    Delete();
+    del();
+    del();
     cout<<"\n After deletion of 2 nodes,queue=\n";
     //print Queue elements
     Display();
