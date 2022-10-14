@@ -62,5 +62,3 @@ void dList()
         free(temp);
     }
 }
-
-void s
