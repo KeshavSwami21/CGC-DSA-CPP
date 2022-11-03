@@ -35,7 +35,7 @@ struct Queue
         }
 
         // Add the new node at
-        // the end of queue and change 
+        // the end of queue and change rear
         rear->next = temp;
         rear = temp;
     }
